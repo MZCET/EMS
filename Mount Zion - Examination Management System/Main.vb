@@ -17,7 +17,7 @@ Public Class Main
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
-        'cstring = "Server=103.207.1.91;Database=EMSDB;User Id=EMS;Password=EMS1234;Encrypt=False;"
+        cstring = "Server=103.207.1.91;Database=EMSDB;User Id=EMS;Password=EMS1234;Encrypt=False;"
 
 
         'Check SW Version

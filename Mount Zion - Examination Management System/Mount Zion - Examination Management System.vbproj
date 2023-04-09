@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>Mount_Zion___Examination_Management_System</RootNamespace>
-    <StartupObject>Mount_Zion___Examination_Management_System.Main</StartupObject>
+    <StartupObject>Mount_Zion___Examination_Management_System.My.MyApplication</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
@@ -45,10 +45,6 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="My Project\DataSources\" />
   </ItemGroup>
 
 </Project>

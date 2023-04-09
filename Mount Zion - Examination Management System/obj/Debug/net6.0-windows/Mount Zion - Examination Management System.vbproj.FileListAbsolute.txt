@@ -95,3 +95,52 @@ C:\Users\Vasudevan.N\Downloads\Mount Zion - Examination Management System\Mount 
 C:\Users\Vasudevan.N\Downloads\Mount Zion - Examination Management System\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.studentDetails_page1.resources
 C:\Users\Vasudevan.N\Downloads\Mount Zion - Examination Management System\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.studentDetails_page2.resources
 C:\Users\Vasudevan.N\Downloads\Mount Zion - Examination Management System\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Resources.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Mount Zion - Examination Management System.exe
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Mount Zion - Examination Management System.deps.json
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Mount Zion - Examination Management System.runtimeconfig.json
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Mount Zion - Examination Management System.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Mount Zion - Examination Management System.pdb
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.vbproj.AssemblyReference.cache
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Main.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Main_Login.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Resources.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Reg_Details.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Reg_Mgmt.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.Reg_PrgCourses.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.studentDetails_page1.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount_Zion___Examination_Management_System.TestForm.resources
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.vbproj.GenerateResource.cache
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.AssemblyInfoInputs.cache
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.AssemblyInfo.vb
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.vbproj.CoreCompileInputs.cache
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.vbproj.CopyComplete
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\refint\Mount Zion - Examination Management System.dll
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.pdb
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\Mount Zion - Examination Management System.genruntimeconfig.cache
+C:\Users\Vasudevan.N\source\repos\MZCET\Ems\Mount Zion - Examination Management System\obj\Debug\net6.0-windows\ref\Mount Zion - Examination Management System.dll
