@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vasudevan.N\\Downloads\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj": {}
+    "C:\\Users\\Vasudevan.N\\source\\repos\\MZCET\\Ems\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Vasudevan.N\\Downloads\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj": {
+    "C:\\Users\\Vasudevan.N\\source\\repos\\MZCET\\Ems\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasudevan.N\\Downloads\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj",
+        "projectUniqueName": "C:\\Users\\Vasudevan.N\\source\\repos\\MZCET\\Ems\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj",
         "projectName": "Mount Zion - Examination Management System",
-        "projectPath": "C:\\Users\\Vasudevan.N\\Downloads\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj",
+        "projectPath": "C:\\Users\\Vasudevan.N\\source\\repos\\MZCET\\Ems\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System.vbproj",
         "packagesPath": "C:\\Users\\Vasudevan.N\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasudevan.N\\Downloads\\Mount Zion - Examination Management System\\Mount Zion - Examination Management System\\obj\\",
+        "outputPath": "C:\\Users\\Vasudevan.N\\source\\repos\\MZCET\\Ems\\Mount Zion - Examination Management System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasudevan.N\\AppData\\Roaming\\NuGet\\NuGet.Config",
