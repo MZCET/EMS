@@ -1,7 +1,7 @@
 ﻿Public Module variables
 
 
-    ' Public M_O_A
+    Public M_O_A
     Public M_O_I
     Public S_O_M
     Public A_NUM
