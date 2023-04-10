@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports System.Text.RegularExpressions
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports Microsoft.Data.SqlClient
 
@@ -31,13 +32,12 @@ Public Class CodeBank
             Using command As New SqlCommand(query, connection)
                 connection.Open()
                 Dim newID As Integer = Convert.ToInt32(command.ExecuteScalar())
-                '				MessageBox.Show("New record ID: " & newID)
             End Using
         End Using
     End Sub
     Public Function pick_file()
         Dim openFileDialog1 As New OpenFileDialog()
-        openFileDialog1.Filter = "Text Files (*.jpg)|*.png|All Files (*.*)|*.*"
+        openFileDialog1.Filter = "Image Files(*.BMP;*.JPG;*.PNG;*.GIF)|*.BMP;*.JPG;*.PNG;*.GIF"
         If openFileDialog1.ShowDialog() = DialogResult.OK Then
             Dim fileInfo As New FileInfo(openFileDialog1.FileName)
             Dim fileSizeKB As Long = fileInfo.Length / 1024
@@ -63,4 +63,9 @@ Public Class CodeBank
         con.Close()
     End Function
 
+    Public Function IsValidEmail(ByVal email As String) As Boolean
+        Dim pattern As String = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+        Dim regex As New Regex(pattern)
+        Return regex.IsMatch(email)
+    End Function
 End Class

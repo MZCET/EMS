@@ -22,72 +22,101 @@ Partial Class TestForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(105, 186)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(282, 93)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(265, 41)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(320, 95)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(545, 290)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(254, 87)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(52, 324)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(114, 53)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Upload File"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(172, 324)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(114, 53)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Download File"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'TestForm
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Name = "TestForm"
-        Me.Text = "TestForm"
-        Me.ResumeLayout(False)
-
+        Button1 = New Button()
+        Button2 = New Button()
+        Button3 = New Button()
+        Button4 = New Button()
+        Button5 = New Button()
+        PictureBox1 = New PictureBox()
+        Button6 = New Button()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(150, 310)
+        Button1.Margin = New Padding(4, 5, 4, 5)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(403, 155)
+        Button1.TabIndex = 0
+        Button1.Text = "Button1"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(379, 68)
+        Button2.Margin = New Padding(4, 5, 4, 5)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(457, 158)
+        Button2.TabIndex = 1
+        Button2.Text = "Button2"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Button3
+        ' 
+        Button3.Location = New Point(779, 483)
+        Button3.Margin = New Padding(4, 5, 4, 5)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(363, 145)
+        Button3.TabIndex = 2
+        Button3.Text = "bu"
+        Button3.UseVisualStyleBackColor = True
+        ' 
+        ' Button4
+        ' 
+        Button4.Location = New Point(74, 540)
+        Button4.Margin = New Padding(4, 5, 4, 5)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(163, 88)
+        Button4.TabIndex = 3
+        Button4.Text = "Upload File"
+        Button4.UseVisualStyleBackColor = True
+        ' 
+        ' Button5
+        ' 
+        Button5.Location = New Point(246, 540)
+        Button5.Margin = New Padding(4, 5, 4, 5)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(163, 88)
+        Button5.TabIndex = 4
+        Button5.Text = "Download File"
+        Button5.UseVisualStyleBackColor = True
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Location = New Point(867, 124)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(197, 235)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 5
+        PictureBox1.TabStop = False
+        ' 
+        ' Button6
+        ' 
+        Button6.Location = New Point(145, 117)
+        Button6.Name = "Button6"
+        Button6.Size = New Size(196, 109)
+        Button6.TabIndex = 6
+        Button6.Text = "ck"
+        Button6.UseVisualStyleBackColor = True
+        ' 
+        ' TestForm
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1143, 750)
+        Controls.Add(Button6)
+        Controls.Add(PictureBox1)
+        Controls.Add(Button5)
+        Controls.Add(Button4)
+        Controls.Add(Button3)
+        Controls.Add(Button2)
+        Controls.Add(Button1)
+        Margin = New Padding(4, 5, 4, 5)
+        Name = "TestForm"
+        Text = "TestForm"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
     End Sub
 
     Friend WithEvents Button1 As Button
@@ -95,4 +124,6 @@ Partial Class TestForm
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button6 As Button
 End Class

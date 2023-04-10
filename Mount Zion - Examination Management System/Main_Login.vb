@@ -1,5 +1,6 @@
 ﻿Imports Microsoft.Data.SqlClient
 Public Class Main_Login
+    Dim Main = New Main
     Public Property Result As Integer
 
 

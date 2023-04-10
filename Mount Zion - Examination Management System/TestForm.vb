@@ -2,6 +2,7 @@
 Imports Microsoft.Data.SqlClient
 
 Public Class TestForm
+    Dim Main = New Main
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim query As String = "INSERT INTO users (UserName, Password,FullName,Status,CreatedBy,CreateDate,PasswordExpiry,DoesPasswordExpire) VALUES (@UserName, @Password,@FullName,0,@CreatedBy,GETDATE(),GETDATE()-1,1)"
 
@@ -55,15 +56,37 @@ Public Class TestForm
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
-        Dim query As String = "SELECT FileData FROM LargeFiles WHERE FileID=1"
+        Dim query As String = "SELECT handwriting FROM student_info where id=5"
 
-        Using connection As New SqlConnection(Main.cstring)
+        Using connection As New SqlConnection("Server=103.207.1.91;Database=EMSDB;User Id=EMS;Password=EMS1234;Encrypt=False;")
             Using command As New SqlCommand(query, connection)
                 connection.Open()
-
                 Dim fileData() As Byte = DirectCast(command.ExecuteScalar(), Byte())
-                File.WriteAllBytes("C:\temp\file.ext", fileData)
+                If fileData.Length > 0 Then
+                    Using stream As New MemoryStream(fileData)
+                        Dim img = Image.FromStream(stream)
+                        PictureBox1.Image = img
+                    End Using
+                End If
             End Using
+
         End Using
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim openFileDialog1 As New OpenFileDialog()
+        openFileDialog1.Filter = "Image Files(*.BMP;*.JPG;*.PNG;*.GIF)|*.BMP;*.JPG;*.PNG;*.GIF"
+        Dim result As DialogResult = openFileDialog1.ShowDialog()
+        If result = DialogResult.OK Then
+
+            Dim bytes As Byte() = File.ReadAllBytes(openFileDialog1.FileName)
+            Dim query As String = "INSERT INTO my_table (Image) VALUES (@ImageData)"
+            Using conn As New SqlConnection("Server=103.207.1.91;Database=EMSDB;User Id=EMS;Password=EMS1234;Encrypt=False;"), cmd As New SqlCommand(query, conn)
+                cmd.Parameters.Add("@ImageData", SqlDbType.VarBinary, -1).Value = bytes
+                conn.Open()
+                cmd.ExecuteNonQuery()
+            End Using
+        End If
+
     End Sub
 End Class
