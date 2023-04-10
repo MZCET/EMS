@@ -36,8 +36,6 @@ Public Class TestForm
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
         Dim query As String = "INSERT INTO LargeFiles (FileName, FileExtension, FileData, CreateDate, CreatedBy) VALUES (@FileName, @FileExtension, @FileData,GETDATE(), @CreatedBy)"
-
-        ' Read the file into a byte array
         Dim fileData() As Byte = File.ReadAllBytes("C:\audio.log")
 
         Using connection As New SqlConnection(Main.cstring)
