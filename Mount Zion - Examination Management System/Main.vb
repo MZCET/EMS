@@ -17,24 +17,24 @@ Public Class Main
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
-        cstring = "Server=103.207.1.91;Database=EMSDB;User Id=EMS;Password=EMS1234;Encrypt=False;"
+        cstring = "Data Source=103.207.1.91;Initial Catalog=EMSDB;User ID=EMS;Password=EMS1234;Encrypt=False;"
 
 
         'Check SW Version
-        'If cb.vercheck() = False Then
-        'MsgBox("This version of software has expired. You need to upgrade to the latest version.", vbOKOnly + vbCritical, "Please upgrade the software.")
-        'Me.Close()
-        'End If
+        If cb.vercheck() = False Then
+            MsgBox("This version of software has expired. You need to upgrade to the latest version.", vbOKOnly + vbCritical, "Please upgrade the software.")
+            Me.Close()
+        End If
 
         'User Login
-        'Dim LF As New Main_Login()
-        'If LF.ShowDialog() = DialogResult.OK Then
-        'If LF.Result = 0 Then
-        'Me.Close()
-        'End If
-        'Else
-        'Me.Close()
-        'End If
+        Dim LF As New Main_Login()
+        If LF.ShowDialog() = DialogResult.OK Then
+            If LF.Result = 0 Then
+                Me.Close()
+            End If
+        Else
+            Me.Close()
+        End If
 
 
     End Sub
@@ -49,19 +49,27 @@ Public Class Main
     End Sub
 
     Private Sub ManageProgramsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManageProgramsToolStripMenuItem.Click
-        Dim frm = New Reg_PrgCourses
-        frm.Show()
-        frm.MdiParent = Me
-
+        Dim frm2 = Reg_PrgCourses
+        frm2.Show()
+        frm2.MdiParent = Me
     End Sub
 
-    Private Sub NewProfileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewProfileToolStripMenuItem.Click
-        Dim frm = New studentDetails_page1
-        frm.Show()
-        frm.MdiParent = Me
+    Private Sub ManageCoursesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManageCoursesToolStripMenuItem.Click
+        Dim frm2 = ManageStudentCourse
+        frm2.Show()
+        frm2.MdiParent = Me
     End Sub
 
-    Private Sub RegulationManagementToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegulationManagementToolStripMenuItem.Click
+    Private Sub ManageCourseFileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManageCourseFileToolStripMenuItem.Click
+        Dim frm2 = CourseAttachment
+        frm2.Show()
+        frm2.MdiParent = Me
+    End Sub
 
+    Private Sub AddStudentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddStudentToolStripMenuItem.Click
+
+        Dim frm2 = studentDetails_page1
+        frm2.Show()
+        frm2.MdiParent = Me
     End Sub
 End Class

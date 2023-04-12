@@ -22,169 +22,187 @@ Partial Class Reg_PrgCourses
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        GroupBox1 = New GroupBox()
-        DataGridView1 = New DataGridView()
-        GroupBox2 = New GroupBox()
-        DataGridView2 = New DataGridView()
-        GroupBox3 = New GroupBox()
-        DataGridView3 = New DataGridView()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
-        Button5 = New Button()
-        GroupBox1.SuspendLayout()
-        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
-        GroupBox2.SuspendLayout()
-        CType(DataGridView2, ComponentModel.ISupportInitialize).BeginInit()
-        GroupBox3.SuspendLayout()
-        CType(DataGridView3, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
-        ' 
-        ' GroupBox1
-        ' 
-        GroupBox1.Controls.Add(DataGridView1)
-        GroupBox1.Location = New Point(17, 20)
-        GroupBox1.Margin = New Padding(4, 5, 4, 5)
-        GroupBox1.Name = "GroupBox1"
-        GroupBox1.Padding = New Padding(4, 5, 4, 5)
-        GroupBox1.Size = New Size(1529, 390)
-        GroupBox1.TabIndex = 0
-        GroupBox1.TabStop = False
-        GroupBox1.Text = "Select Regulation"' 
-        ' DataGridView1
-        ' 
-        DataGridView1.AllowUserToAddRows = False
-        DataGridView1.AllowUserToDeleteRows = False
-        DataGridView1.AllowUserToOrderColumns = True
-        DataGridView1.AllowUserToResizeRows = False
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically
-        DataGridView1.Location = New Point(9, 37)
-        DataGridView1.Margin = New Padding(4, 5, 4, 5)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.RowHeadersWidth = 62
-        DataGridView1.RowTemplate.Height = 25
-        DataGridView1.Size = New Size(1511, 332)
-        DataGridView1.TabIndex = 0
-        ' 
-        ' GroupBox2
-        ' 
-        GroupBox2.Controls.Add(DataGridView2)
-        GroupBox2.Location = New Point(17, 420)
-        GroupBox2.Margin = New Padding(4, 5, 4, 5)
-        GroupBox2.Name = "GroupBox2"
-        GroupBox2.Padding = New Padding(4, 5, 4, 5)
-        GroupBox2.Size = New Size(1529, 390)
-        GroupBox2.TabIndex = 1
-        GroupBox2.TabStop = False
-        GroupBox2.Text = "Setup Programs"' 
-        ' DataGridView2
-        ' 
-        DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView2.Location = New Point(9, 37)
-        DataGridView2.Margin = New Padding(4, 5, 4, 5)
-        DataGridView2.Name = "DataGridView2"
-        DataGridView2.RowHeadersWidth = 62
-        DataGridView2.RowTemplate.Height = 25
-        DataGridView2.Size = New Size(1511, 332)
-        DataGridView2.TabIndex = 0
-        ' 
-        ' GroupBox3
-        ' 
-        GroupBox3.Controls.Add(DataGridView3)
-        GroupBox3.Location = New Point(26, 820)
-        GroupBox3.Margin = New Padding(4, 5, 4, 5)
-        GroupBox3.Name = "GroupBox3"
-        GroupBox3.Padding = New Padding(4, 5, 4, 5)
-        GroupBox3.Size = New Size(1529, 390)
-        GroupBox3.TabIndex = 2
-        GroupBox3.TabStop = False
-        GroupBox3.Text = "Setup Courses"' 
-        ' DataGridView3
-        ' 
-        DataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView3.Location = New Point(9, 37)
-        DataGridView3.Margin = New Padding(4, 5, 4, 5)
-        DataGridView3.Name = "DataGridView3"
-        DataGridView3.RowHeadersWidth = 62
-        DataGridView3.RowTemplate.Height = 25
-        DataGridView3.Size = New Size(1511, 332)
-        DataGridView3.TabIndex = 0
-        ' 
-        ' Button1
-        ' 
-        Button1.Location = New Point(1554, 560)
-        Button1.Margin = New Padding(4, 5, 4, 5)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(266, 55)
-        Button1.TabIndex = 3
-        Button1.Text = "Add"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' Button2
-        ' 
-        Button2.Location = New Point(1554, 625)
-        Button2.Margin = New Padding(4, 5, 4, 5)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(266, 55)
-        Button2.TabIndex = 4
-        Button2.Text = "Activate/Deactivate"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' Button3
-        ' 
-        Button3.Location = New Point(1563, 1038)
-        Button3.Margin = New Padding(4, 5, 4, 5)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(266, 55)
-        Button3.TabIndex = 6
-        Button3.Text = "Activate/Deactivate"
-        Button3.UseVisualStyleBackColor = True
-        ' 
-        ' Button4
-        ' 
-        Button4.Location = New Point(1563, 973)
-        Button4.Margin = New Padding(4, 5, 4, 5)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(266, 55)
-        Button4.TabIndex = 5
-        Button4.Text = "Add"
-        Button4.UseVisualStyleBackColor = True
-        ' 
-        ' Button5
-        ' 
-        Button5.Location = New Point(677, 1437)
-        Button5.Margin = New Padding(4, 5, 4, 5)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(107, 38)
-        Button5.TabIndex = 7
-        Button5.Text = "Button5"
-        Button5.UseVisualStyleBackColor = True
-        ' 
-        ' Reg_PrgCourses
-        ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1924, 1050)
-        Controls.Add(Button5)
-        Controls.Add(Button3)
-        Controls.Add(Button4)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
-        Controls.Add(GroupBox3)
-        Controls.Add(GroupBox2)
-        Controls.Add(GroupBox1)
-        Margin = New Padding(4, 5, 4, 5)
-        Name = "Reg_PrgCourses"
-        Text = "Reg_PrgCourses"
-        GroupBox1.ResumeLayout(False)
-        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
-        GroupBox2.ResumeLayout(False)
-        CType(DataGridView2, ComponentModel.ISupportInitialize).EndInit()
-        GroupBox3.ResumeLayout(False)
-        CType(DataGridView3, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.DataGridView1)
+        Me.GroupBox1.Location = New System.Drawing.Point(14, 16)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(1280, 312)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Select Regulation"
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.AllowUserToOrderColumns = True
+        Me.DataGridView1.AllowUserToResizeRows = False
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 29)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.RowTemplate.Height = 25
+        Me.DataGridView1.Size = New System.Drawing.Size(1256, 265)
+        Me.DataGridView1.TabIndex = 0
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.DataGridView2)
+        Me.GroupBox2.Location = New System.Drawing.Point(14, 336)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(1279, 312)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Setup Programs"
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.AllowUserToAddRows = False
+        Me.DataGridView2.AllowUserToDeleteRows = False
+        Me.DataGridView2.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(7, 29)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.ReadOnly = True
+        Me.DataGridView2.RowHeadersWidth = 51
+        Me.DataGridView2.RowTemplate.Height = 25
+        Me.DataGridView2.Size = New System.Drawing.Size(1256, 265)
+        Me.DataGridView2.TabIndex = 0
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.DataGridView3)
+        Me.GroupBox3.Location = New System.Drawing.Point(13, 656)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox3.Size = New System.Drawing.Size(1280, 312)
+        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Setup Courses"
+        '
+        'DataGridView3
+        '
+        Me.DataGridView3.AllowUserToAddRows = False
+        Me.DataGridView3.AllowUserToDeleteRows = False
+        Me.DataGridView3.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView3.Location = New System.Drawing.Point(7, 29)
+        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.ReadOnly = True
+        Me.DataGridView3.RowHeadersWidth = 51
+        Me.DataGridView3.RowTemplate.Height = 25
+        Me.DataGridView3.Size = New System.Drawing.Size(1257, 265)
+        Me.DataGridView3.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(1307, 461)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(213, 44)
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "Add"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(1307, 513)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(213, 44)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Activate/Deactivate"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(1307, 822)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(213, 44)
+        Me.Button3.TabIndex = 6
+        Me.Button3.Text = "Activate/Deactivate"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(1307, 770)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(213, 44)
+        Me.Button4.TabIndex = 5
+        Me.Button4.Text = "Add"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(542, 1149)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(86, 31)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "Button5"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Reg_PrgCourses
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
+        Me.ClientSize = New System.Drawing.Size(1602, 962)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "Reg_PrgCourses"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "Reg_PrgCourses"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.GroupBox1.ResumeLayout(False)
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox

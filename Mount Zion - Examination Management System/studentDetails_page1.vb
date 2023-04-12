@@ -6,7 +6,7 @@ Imports System.Security.Cryptography.Xml
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Menu
 Imports Microsoft.Data.SqlClient
-Imports Mount_Zion___Examination_Management_System.variables
+Imports Microsoft.IdentityModel.Tokens
 
 Public Class studentDetails_page1
     Dim cb As New CodeBank
@@ -24,10 +24,10 @@ Public Class studentDetails_page1
             MsgBox("Please Fill the temporary Address")
         ElseIf (p_a1.Text = "" Or p_a1.Text = "" Or p_a2.Text = "" Or p_district.Text = "" Or p_pincode.Text = "" Or p_city.Text = "" Or p_con.Text = "" Or p_state.Text = "") Then
             MsgBox("Please Fill the permanent Address")
-            ''ElseIf (stu_img.ToString = "") Then
-            '    MsgBox("Please upload student's image")
-            ' ElseIf (sign_image.ToString = "") Then
-            'MsgBox("Please upload student's signature image")
+        ElseIf (stu_img.IsNullOrEmpty) Then
+            MsgBox("Please upload student's image")
+        ElseIf (sign_image.IsNullOrEmpty) Then
+            MsgBox("Please upload student's signature image")
         Else
             If cb.IsValidEmail(mail.Text) = False Then
                 MessageBox.Show("Email address is not valid.")
@@ -194,7 +194,7 @@ Public Class studentDetails_page1
     Private Sub upload_photo_Click(sender As Object, e As EventArgs) Handles upload_photo.Click
         Dim path_name = cb.pick_file
         If path_name <> "" Then
-            Dim image As Image = Image.FromFile(path_name)
+            Dim image As Image = image.FromFile(path_name)
             stu_img = File.ReadAllBytes(path_name)
             Student_img.Image = image
             Student_img.Visible = True
@@ -205,7 +205,7 @@ Public Class studentDetails_page1
     Private Sub upload_sign_Click(sender As Object, e As EventArgs) Handles upload_sign.Click
         Dim path_name = cb.pick_file
         If path_name <> "" Then
-            Dim image As Image = Image.FromFile(path_name)
+            Dim image As Image = image.FromFile(path_name)
             sign_image = File.ReadAllBytes(path_name)
             sign_img.Image = image
             sign_img.Visible = True
@@ -215,7 +215,7 @@ Public Class studentDetails_page1
     Private Sub upload_handwritting_Click(sender As Object, e As EventArgs) Handles upload_handwritting.Click
         Dim path_name = cb.pick_file
         If path_name <> "" Then
-            Dim image As Image = Image.FromFile(path_name)
+            Dim image As Image = image.FromFile(path_name)
             hand_img = File.ReadAllBytes(path_name)
             handwritten_img.Image = image
             handwritten_img.Visible = True
