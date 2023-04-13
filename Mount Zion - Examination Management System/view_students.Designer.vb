@@ -371,7 +371,7 @@ Partial Class view_students
         ' 
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(713, 56)
+        PictureBox4.Location = New Point(713, 39)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(150, 162)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
@@ -382,9 +382,9 @@ Partial Class view_students
         ' 
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(341, 96)
+        PictureBox3.Location = New Point(341, 115)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(245, 86)
+        PictureBox3.Size = New Size(262, 86)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox3.TabIndex = 88
         PictureBox3.TabStop = False
@@ -393,7 +393,7 @@ Partial Class view_students
         ' 
         PictureBox2.BorderStyle = BorderStyle.FixedSingle
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(70, 56)
+        PictureBox2.Location = New Point(70, 39)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(150, 162)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
