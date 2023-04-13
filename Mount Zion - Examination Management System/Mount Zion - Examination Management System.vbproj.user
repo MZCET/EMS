@@ -19,6 +19,9 @@
     <Compile Update="ManageStudentCourse.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="pdf.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Reg_Details.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view_students.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

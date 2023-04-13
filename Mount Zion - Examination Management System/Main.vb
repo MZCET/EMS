@@ -72,4 +72,16 @@ Public Class Main
         frm2.Show()
         frm2.MdiParent = Me
     End Sub
+
+    Private Sub PdfToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PdfToolStripMenuItem.Click
+        Dim frm2 = pdf
+        frm2.Show()
+        frm2.MdiParent = Me
+    End Sub
+
+    Private Sub ViewStudentsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewStudentsToolStripMenuItem.Click
+        Dim frm2 = view_students
+        frm2.Show()
+        frm2.MdiParent = Me
+    End Sub
 End Class

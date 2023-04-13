@@ -22,124 +22,122 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ProgramToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RegulationManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManageRegulationsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManageProgramsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManageCourseFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StudentManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManageCoursesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.QuestionPaperManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ResultsManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddStudentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuStrip1.SuspendLayout()
-        Me.SuspendLayout()
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgramToolStripMenuItem, Me.RegulationManagementToolStripMenuItem, Me.StudentManagementToolStripMenuItem, Me.QuestionPaperManagementToolStripMenuItem, Me.ResultsManagementToolStripMenuItem, Me.TestToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 3, 0, 3)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1400, 30)
-        Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'ProgramToolStripMenuItem
-        '
-        Me.ProgramToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
-        Me.ProgramToolStripMenuItem.Name = "ProgramToolStripMenuItem"
-        Me.ProgramToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
-        Me.ProgramToolStripMenuItem.Text = "Program"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(116, 26)
-        Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'RegulationManagementToolStripMenuItem
-        '
-        Me.RegulationManagementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ManageRegulationsToolStripMenuItem, Me.ManageProgramsToolStripMenuItem, Me.ManageCourseFileToolStripMenuItem})
-        Me.RegulationManagementToolStripMenuItem.Name = "RegulationManagementToolStripMenuItem"
-        Me.RegulationManagementToolStripMenuItem.Size = New System.Drawing.Size(187, 24)
-        Me.RegulationManagementToolStripMenuItem.Text = "Regulation Management"
-        '
-        'ManageRegulationsToolStripMenuItem
-        '
-        Me.ManageRegulationsToolStripMenuItem.Name = "ManageRegulationsToolStripMenuItem"
-        Me.ManageRegulationsToolStripMenuItem.Size = New System.Drawing.Size(264, 26)
-        Me.ManageRegulationsToolStripMenuItem.Text = "Manage Regulations"
-        '
-        'ManageProgramsToolStripMenuItem
-        '
-        Me.ManageProgramsToolStripMenuItem.Name = "ManageProgramsToolStripMenuItem"
-        Me.ManageProgramsToolStripMenuItem.Size = New System.Drawing.Size(264, 26)
-        Me.ManageProgramsToolStripMenuItem.Text = "Manage Program/Courses"
-        '
-        'ManageCourseFileToolStripMenuItem
-        '
-        Me.ManageCourseFileToolStripMenuItem.Name = "ManageCourseFileToolStripMenuItem"
-        Me.ManageCourseFileToolStripMenuItem.Size = New System.Drawing.Size(264, 26)
-        Me.ManageCourseFileToolStripMenuItem.Text = "Manage Courses File"
-        '
-        'StudentManagementToolStripMenuItem
-        '
-        Me.StudentManagementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ManageCoursesToolStripMenuItem, Me.AddStudentToolStripMenuItem})
-        Me.StudentManagementToolStripMenuItem.Name = "StudentManagementToolStripMenuItem"
-        Me.StudentManagementToolStripMenuItem.Size = New System.Drawing.Size(166, 24)
-        Me.StudentManagementToolStripMenuItem.Text = "Student Management"
-        '
-        'ManageCoursesToolStripMenuItem
-        '
-        Me.ManageCoursesToolStripMenuItem.Name = "ManageCoursesToolStripMenuItem"
-        Me.ManageCoursesToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.ManageCoursesToolStripMenuItem.Text = "Manage Courses"
-        '
-        'QuestionPaperManagementToolStripMenuItem
-        '
-        Me.QuestionPaperManagementToolStripMenuItem.Name = "QuestionPaperManagementToolStripMenuItem"
-        Me.QuestionPaperManagementToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
-        Me.QuestionPaperManagementToolStripMenuItem.Text = "Question Paper Management"
-        '
-        'ResultsManagementToolStripMenuItem
-        '
-        Me.ResultsManagementToolStripMenuItem.Name = "ResultsManagementToolStripMenuItem"
-        Me.ResultsManagementToolStripMenuItem.Size = New System.Drawing.Size(161, 24)
-        Me.ResultsManagementToolStripMenuItem.Text = "Results Management"
-        '
-        'TestToolStripMenuItem
-        '
-        Me.TestToolStripMenuItem.Name = "TestToolStripMenuItem"
-        Me.TestToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
-        Me.TestToolStripMenuItem.Text = "Test"
-        '
-        'AddStudentToolStripMenuItem
-        '
-        Me.AddStudentToolStripMenuItem.Name = "AddStudentToolStripMenuItem"
-        Me.AddStudentToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.AddStudentToolStripMenuItem.Text = "Add Student"
-        '
-        'Main
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1400, 735)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.IsMdiContainer = True
-        Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Name = "Main"
-        Me.Text = "Mount Zion - Examination Management System"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
-
+        MenuStrip1 = New MenuStrip()
+        ProgramToolStripMenuItem = New ToolStripMenuItem()
+        ExitToolStripMenuItem = New ToolStripMenuItem()
+        PdfToolStripMenuItem = New ToolStripMenuItem()
+        RegulationManagementToolStripMenuItem = New ToolStripMenuItem()
+        ManageRegulationsToolStripMenuItem = New ToolStripMenuItem()
+        ManageProgramsToolStripMenuItem = New ToolStripMenuItem()
+        ManageCourseFileToolStripMenuItem = New ToolStripMenuItem()
+        StudentManagementToolStripMenuItem = New ToolStripMenuItem()
+        ManageCoursesToolStripMenuItem = New ToolStripMenuItem()
+        AddStudentToolStripMenuItem = New ToolStripMenuItem()
+        QuestionPaperManagementToolStripMenuItem = New ToolStripMenuItem()
+        ResultsManagementToolStripMenuItem = New ToolStripMenuItem()
+        TestToolStripMenuItem = New ToolStripMenuItem()
+        ViewStudentsToolStripMenuItem = New ToolStripMenuItem()
+        MenuStrip1.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' MenuStrip1
+        ' 
+        MenuStrip1.ImageScalingSize = New Size(20, 20)
+        MenuStrip1.Items.AddRange(New ToolStripItem() {ProgramToolStripMenuItem, RegulationManagementToolStripMenuItem, StudentManagementToolStripMenuItem, QuestionPaperManagementToolStripMenuItem, ResultsManagementToolStripMenuItem, TestToolStripMenuItem})
+        MenuStrip1.Location = New Point(0, 0)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.Padding = New Padding(9, 4, 0, 4)
+        MenuStrip1.Size = New Size(1750, 37)
+        MenuStrip1.TabIndex = 1
+        MenuStrip1.Text = "MenuStrip1"' 
+        ' ProgramToolStripMenuItem
+        ' 
+        ProgramToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ExitToolStripMenuItem, PdfToolStripMenuItem})
+        ProgramToolStripMenuItem.Name = "ProgramToolStripMenuItem"
+        ProgramToolStripMenuItem.Size = New Size(97, 29)
+        ProgramToolStripMenuItem.Text = "Program"' 
+        ' ExitToolStripMenuItem
+        ' 
+        ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        ExitToolStripMenuItem.Size = New Size(142, 34)
+        ExitToolStripMenuItem.Text = "Exit"' 
+        ' PdfToolStripMenuItem
+        ' 
+        PdfToolStripMenuItem.Name = "PdfToolStripMenuItem"
+        PdfToolStripMenuItem.Size = New Size(142, 34)
+        PdfToolStripMenuItem.Text = "pdf"' 
+        ' RegulationManagementToolStripMenuItem
+        ' 
+        RegulationManagementToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ManageRegulationsToolStripMenuItem, ManageProgramsToolStripMenuItem, ManageCourseFileToolStripMenuItem})
+        RegulationManagementToolStripMenuItem.Name = "RegulationManagementToolStripMenuItem"
+        RegulationManagementToolStripMenuItem.Size = New Size(222, 29)
+        RegulationManagementToolStripMenuItem.Text = "Regulation Management"' 
+        ' ManageRegulationsToolStripMenuItem
+        ' 
+        ManageRegulationsToolStripMenuItem.Name = "ManageRegulationsToolStripMenuItem"
+        ManageRegulationsToolStripMenuItem.Size = New Size(322, 34)
+        ManageRegulationsToolStripMenuItem.Text = "Manage Regulations"' 
+        ' ManageProgramsToolStripMenuItem
+        ' 
+        ManageProgramsToolStripMenuItem.Name = "ManageProgramsToolStripMenuItem"
+        ManageProgramsToolStripMenuItem.Size = New Size(322, 34)
+        ManageProgramsToolStripMenuItem.Text = "Manage Program/Courses"' 
+        ' ManageCourseFileToolStripMenuItem
+        ' 
+        ManageCourseFileToolStripMenuItem.Name = "ManageCourseFileToolStripMenuItem"
+        ManageCourseFileToolStripMenuItem.Size = New Size(322, 34)
+        ManageCourseFileToolStripMenuItem.Text = "Manage Courses File"' 
+        ' StudentManagementToolStripMenuItem
+        ' 
+        StudentManagementToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ManageCoursesToolStripMenuItem, AddStudentToolStripMenuItem, ViewStudentsToolStripMenuItem})
+        StudentManagementToolStripMenuItem.Name = "StudentManagementToolStripMenuItem"
+        StudentManagementToolStripMenuItem.Size = New Size(199, 29)
+        StudentManagementToolStripMenuItem.Text = "Student Management"' 
+        ' ManageCoursesToolStripMenuItem
+        ' 
+        ManageCoursesToolStripMenuItem.Name = "ManageCoursesToolStripMenuItem"
+        ManageCoursesToolStripMenuItem.Size = New Size(270, 34)
+        ManageCoursesToolStripMenuItem.Text = "Manage Courses"' 
+        ' AddStudentToolStripMenuItem
+        ' 
+        AddStudentToolStripMenuItem.Name = "AddStudentToolStripMenuItem"
+        AddStudentToolStripMenuItem.Size = New Size(270, 34)
+        AddStudentToolStripMenuItem.Text = "Add Student"' 
+        ' QuestionPaperManagementToolStripMenuItem
+        ' 
+        QuestionPaperManagementToolStripMenuItem.Name = "QuestionPaperManagementToolStripMenuItem"
+        QuestionPaperManagementToolStripMenuItem.Size = New Size(259, 29)
+        QuestionPaperManagementToolStripMenuItem.Text = "Question Paper Management"' 
+        ' ResultsManagementToolStripMenuItem
+        ' 
+        ResultsManagementToolStripMenuItem.Name = "ResultsManagementToolStripMenuItem"
+        ResultsManagementToolStripMenuItem.Size = New Size(193, 29)
+        ResultsManagementToolStripMenuItem.Text = "Results Management"' 
+        ' TestToolStripMenuItem
+        ' 
+        TestToolStripMenuItem.Name = "TestToolStripMenuItem"
+        TestToolStripMenuItem.Size = New Size(58, 29)
+        TestToolStripMenuItem.Text = "Test"' 
+        ' ViewStudentsToolStripMenuItem
+        ' 
+        ViewStudentsToolStripMenuItem.Name = "ViewStudentsToolStripMenuItem"
+        ViewStudentsToolStripMenuItem.Size = New Size(270, 34)
+        ViewStudentsToolStripMenuItem.Text = "View Students"' 
+        ' Main
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1750, 919)
+        Controls.Add(MenuStrip1)
+        IsMdiContainer = True
+        MainMenuStrip = MenuStrip1
+        Margin = New Padding(4, 5, 4, 5)
+        Name = "Main"
+        Text = "Mount Zion - Examination Management System"
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents MenuStrip1 As MenuStrip
@@ -155,4 +153,6 @@ Partial Class Main
     Friend WithEvents ManageCoursesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ManageCourseFileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AddStudentToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PdfToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ViewStudentsToolStripMenuItem As ToolStripMenuItem
 End Class
